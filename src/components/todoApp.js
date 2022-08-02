@@ -3,7 +3,7 @@ import Todo from "./todo";
 import "./todoApp.css";
 
 export default function TodoApp() {
-  const [title, setTitle] = useState("hola");
+  const [title, setTitle] = useState("");
   const [todos, setTodos] = useState([]);
 
   function handleChange(e) {
